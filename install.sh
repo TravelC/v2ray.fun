@@ -59,4 +59,4 @@ clear
 
 echo "V2ray.fun 安装成功！"
 echo "输入 v2ray 回车即可使用"
-echo ${UUID}
+python /usr/local/v2ray.fun/serverinfo.py
