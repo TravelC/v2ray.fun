@@ -37,7 +37,7 @@ curl  https://get.acme.sh | sh
 #克隆V2ray.fun项目
 cd /usr/local/
 rm -R v2ray.fun
-git clone https://github.com/tracyone/v2ray.fun
+git clone -b travel https://github.com/TravelC/v2ray.fun
 
 #安装V2ray主程序
 bash <(curl -L -s https://install.direct/go.sh)
@@ -59,3 +59,4 @@ clear
 
 echo "V2ray.fun 安装成功！"
 echo "输入 v2ray 回车即可使用"
+echo ${UUID}
